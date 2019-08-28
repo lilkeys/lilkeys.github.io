@@ -1,0 +1,45 @@
+html { overflow-x: auto; }
+body { background: rgb(255, 255, 255) url('http://a.radikal.ru/a41/1908/2e/2320f23e7648.gif') repeat scroll 0% 0%; color: rgb(34, 34, 34); font-family: Verdana,Tahoma,Arial,Trebuchet MS,sans-serif,Georgia,Courier,Times New Roman,serif; font-size: 11px; line-height: 135%; margin: 0px; padding: 0px; text-align: center; }
+.vemy { width: 100%; }
+table.vemy, tr.vemy, td.vemy { background: transparent none repeat scroll 0% 0%; color: rgb(34, 34, 34); font-size: 11px; line-height: 135%; }
+.vemy td, .divpad { padding: 5px; }
+h1 { line-height: normal; }
+td.pexu { padding: 0px; }
+form { display: inline; margin: 0px; padding: 0px; }
+img { max-width: 100%; height: auto; }
+a:link, a:visited, a:active { background: transparent none repeat scroll 0% 0%; color: rgb(11, 34, 0); text-decoration: underline; }
+a:hover { background: transparent none repeat scroll 0% 0%; color: rgb(77, 139, 52); }
+#zaku { margin: 10px auto; text-align: left; width: 98%; }
+.gekevab { font-size: 10px; line-height: 140%; }
+.kylico { font-size: 12px; line-height: 160%; }
+.godyg { color: rgb(0, 0, 51); font-size: 12px; font-weight: bold; }
+.godyg a:link, .godyg a:visited, .godyg a:active { font-size: 12px; }
+.wirugyb, .bg3 { background: rgb(250, 253, 243) none repeat scroll 0% 0%; border: 1px solid rgb(232, 237, 224); }
+.hohoq { background: rgb(222, 232, 205) none repeat scroll 0% 0%; border: 1px solid rgb(199, 213, 157); }
+.kovajo { background: rgb(228, 235, 215) none repeat scroll 0% 0%; }
+.input-warn, .input-green, .input-checkbox, input, textarea, select { background: rgb(251, 254, 245) none repeat scroll 0% 0%; border: 1px solid rgb(124, 170, 87); color: rgb(32, 49, 4); font-family: verdana,helvetica,sans-serif; font-size: 11px; margin: 5px; padding: 2px; vertical-align: middle; }
+input.bevetyj { margin: 0px; width: auto; cursor: pointer; }
+.textarea, .funupuv, .bevetyj, .gobutton { background: rgb(251, 253, 247) none repeat scroll 0% 0%; border: 1px solid rgb(88, 124, 29); color: rgb(48, 74, 7); font-family: Verdana,Helvetica,sans-serif; font-size: 11px; padding: 2px; vertical-align: middle; }
+.bevetyj { background: rgb(251, 254, 245) none repeat scroll 0% 0%; }
+.formtable td.formtitle, .rety { border-top: 0px solid rgb(133, 173, 98); background: rgb(193, 216, 165) none repeat scroll 0% 0%; border-image: none; font-weight: normal; }
+.rety { border: 0px none; color: rgb(62, 97, 35); font-weight: bold; padding: 5px; }
+.nasa, .borderwrapm { background: rgb(254, 253, 247) none repeat scroll 0% 0%; border: 1px solid rgb(88, 124, 29); padding: 0px; margin: 0px; }
+.nasa h3, .wuny, .maintitlecollapse { background: transparent url('http://b.radikal.ru/b19/1908/71/0ec519b9bb15.gif') repeat scroll 0% 0%; border-width: 1px; border-style: solid; border-color: rgb(221, 243, 186) rgb(221, 243, 186) rgb(110, 145, 52); border-image: none; color: rgb(255, 255, 255); font-size: 12px; font-weight: bold; margin: 0px; padding: 8px; }
+.wuny td { color: rgb(255, 255, 255); font-size: 12px; font-weight: bold; }
+td.tequz, .pformstrip, .nasa p.tequz, .nasa p.formbuttonrow1 { background: rgb(228, 235, 215) none repeat scroll 0% 0% ! important; border-width: 1px; border-style: solid; border-color: rgb(129, 169, 94) rgb(199, 213, 157) rgb(199, 213, 157); border-image: none; margin: 0px ! important; padding: 5px ! important; text-align: center; }
+td.tequz { border-bottom: 0px none; border-left: 0px none; border-right: 0px none; }
+.bar, .barb, .wawyfar { background: rgb(187, 205, 162) none repeat scroll 0% 0%; border: 1px solid rgb(255, 255, 255); }
+.wawyfar { border-bottom: 0px none; }
+.rasogir { background: rgb(129, 169, 94) none repeat scroll 0% 0%; color: rgb(0, 0, 0); font-size: 1px; height: 5px; }
+#daqitu { background: rgb(122, 163, 87) none repeat scroll 0% 0%; margin: 5px 0px; padding: 0px; width: 100%; }
+#daqitu td { color: rgb(255, 255, 255); font-size: 10px; padding: 4px; }
+#userlinks, #tokocy { background: rgb(228, 235, 215) none repeat scroll 0% 0%; border: 1px solid rgb(204, 204, 153); margin: 5px 0px; padding: 0px 5px; }
+#tokocy { background: rgb(244, 231, 234) none repeat scroll 0% 0%; border: 1px solid rgb(152, 98, 101); }
+#userlinks p, #tokocy p { background: transparent none repeat scroll 0% 0% ! important; border: 0px none ! important; font-size: 10px; font-weight: bold; letter-spacing: 1px; margin: 0px ! important; padding: 7px 0px; text-align: right; }
+#userlinks p, #tokocy p { font-weight: normal; letter-spacing: 0px; }
+#tokocy p.fesi { text-align: center; }
+.popmenubutton-new, .xebi { width: 110px; white-space: nowrap; background-color: rgb(221, 243, 186); border: 1px solid rgb(110, 145, 52); color: rgb(67, 103, 39); font-weight: bold; float: right; height: 14px; text-align: center; margin: 0px; font-size: 11px; padding: 3px; }
+.xuvugig { padding: 4px; }
+@media screen and (max-width: 640px) {
+	.insertbutton, .usrstatus, #tokocy, .abtn, .nbtn { display: none; }
+}
