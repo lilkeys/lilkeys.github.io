@@ -5,8 +5,8 @@ a:hover, a:active, body_ahover { color: rgb(59, 129, 199); }
 .page { background: rgb(129, 177, 199) none repeat scroll 0% 0%; color: rgb(0, 0, 0); }
 td, th, p, li { font: 10pt verdana,geneva,lucida,"lucida grande",arial,helvetica,sans-serif; }
 .tborder { background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(0, 0, 0); border: 1px solid rgb(0, 0, 0); border-top-right-radius: 5px; border-top-left-radius: 5px; }
-.tcat { background: rgb(234, 241, 246) url('linebgtr0.jpg') repeat-x scroll left bottom; color: rgb(44, 51, 60); font: bold 10pt verdana,geneva,lucida,"lucida grande",arial,helvetica,sans-serif; padding: 3px 0px 3px 5px; }
-.thead { background: rgb(37, 118, 152) url('toplinebgum0.jpg') repeat-x scroll left top; color: rgb(255, 255, 255); font: bold 11px tahoma,verdana,geneva,lucida,"lucida grande",arial,helvetica,sans-serif; }
+.tcat { background: rgb(234, 241, 246); color: rgb(44, 51, 60); font: bold 10pt verdana,geneva,lucida,"lucida grande",arial,helvetica,sans-serif; padding: 3px 0px 3px 5px; }
+.thead { background: rgb(37, 118, 152); color: rgb(255, 255, 255); font: bold 11px tahoma,verdana,geneva,lucida,"lucida grande",arial,helvetica,sans-serif; }
 .thead a:link, .thead_alink { color: rgb(255, 255, 255); }
 .thead a:visited, .thead_avisited { color: rgb(255, 255, 255); }
 .thead a:hover, .thead a:active, .thead_ahover { color: rgb(255, 255, 0); }
@@ -26,7 +26,6 @@ option, optgroup { font-size: 11px; font-family: verdana,geneva,lucida,"lucida g
 .vbmenu_control a:link, .vbmenu_control_alink { color: rgb(255, 255, 255); text-decoration: none; }
 .vbmenu_control a:visited, .vbmenu_control_avisited { color: rgb(255, 255, 255); text-decoration: none; }
 .vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover { color: rgb(255, 255, 255); text-decoration: underline; }
-.vbmenu_popup { background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(0, 0, 0); border: 1px solid rgb(11, 25, 140); }
 .vbmenu_option { background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(19, 86, 153); font: 11px verdana,geneva,lucida,"lucida grande",arial,helvetica,sans-serif; white-space: nowrap; cursor: pointer; }
 .vbmenu_option a:link, .vbmenu_option_alink { color: rgb(19, 86, 153); text-decoration: none; }
 .vbmenu_option a:visited, .vbmenu_option_avisited { color: rgb(19, 86, 153); text-decoration: none; }
@@ -34,7 +33,7 @@ option, optgroup { font-size: 11px; font-family: verdana,geneva,lucida,"lucida g
 .bigusername { font-size: 14pt; text-decoration: none; }
 td.thead, th.thead, div.thead { padding: 4px; }
 .opinion { text-decoration: none; }
-.theadRound { background: rgb(37, 118, 152) url('toplinebgum0.jpg') repeat-x scroll left top; color: rgb(255, 255, 255); font: bold 11px tahoma,verdana,geneva,lucida,"lucida grande",arial,helvetica,sans-serif; border-top-right-radius: 5px; border-top-left-radius: 5px; }
+.theadRound { background: rgb(37, 118, 152); color: rgb(255, 255, 255); font: bold 11px tahoma,verdana,geneva,lucida,"lucida grande",arial,helvetica,sans-serif; border-top-right-radius: 5px; border-top-left-radius: 5px; }
 .theadRound a:link, .thead_alink { color: rgb(255, 255, 255); }
 .theadRound a:visited, .thead_avisited { color: rgb(255, 255, 255); }
 .theadRound a:hover, .thead a:active, .thead_ahover { color: rgb(255, 255, 0); }
@@ -43,7 +42,6 @@ label { cursor: default; }
 .inlineimg { vertical-align: middle; }
 #menutable td:nth-child(2n) { background: rgb(102, 102, 102) url('bg-li.png') no-repeat scroll 0px 0px; padding: 0px; width: 2px; }
 .highslide-overlay { display: none; }
-.hscontrolbar { background: transparent url('controlbar4.gif') repeat scroll 0% 0%; width: 167px; height: 34px; }
 .wr_header:hover { background: rgb(228, 235, 240) none repeat scroll 0px 0px; }
 .wr_header { background: rgb(207, 218, 229) none repeat scroll 0px 0px; color: rgb(106, 121, 137); cursor: pointer; display: block; height: 13px; padding: 9px 0px 8px; border-top-left-radius: 5px; border-top-right-radius: 5px; }
 .pageNoFollow_hilite { color: rgb(0, 0, 0); text-decoration: line-through ! important; }
