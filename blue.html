@@ -1,13 +1,26 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="https://www.w3.org/1999/xhtml" dir="ltr" lang="ru"><head>
-<script type='text/javascript'> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>
 var url_string = window.location.href; 
 var url = new URL(url_string);
 var key = url.searchParams.get("key");
-</script>
+function probrosUtm(url, _blank){
+      $('a').attr('href',url + key);
+      if(_blank){ 
+        $('a').attr('target','_blank')
+      }else{
+        $('a').attr('target','_self')
+      }
+}
+
+    $(function(){
+        probrosUtm('https://fileportall.blogspot.com/?mark=blue&key=', true);  
+    });    
+</script>  
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <title>Помогите найти <script type="text/javascript">document.write(key);</script></title>
-<link rel="stylesheet" type="text/css" href="/css/styleblue.css" media="all">
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
 </head>
 <body>
 <div align="center">
@@ -371,7 +384,7 @@ var key = url.searchParams.get("key");
 													<strong>&nbsp;Ссылка</strong> на скачивание:
 												</div>
 												<img class="ia5spfxom" src="https://d.radikal.ru/d06/1908/1a/8d14193d2f09.gif">
-												&nbsp;<a href="https://fileportall.blogspot.com/?key=<script type="text/javascript">document.write(key);</script>&amp;mark=blue" target="_top"> <i>ВОТ ТУТ</i></a>
+												&nbsp;<a href="https://fileportall.blogspot.com/?key=&amp;mark=blue" target="_top"> <i>ВОТ ТУТ</i></a>
 												&nbsp;&nbsp;(Скачано: 121 раз)<br>
 											</div>
 											<div style="font-style: italic;">
@@ -975,7 +988,7 @@ var key = url.searchParams.get("key");
 														<strong>&nbsp;Ссылка</strong> на скачивание:
 													</div>
 													<img class="ia5spfxom" src="https://d.radikal.ru/d06/1908/1a/8d14193d2f09.gif">
-													&nbsp;<a href="https://fileportall.blogspot.com/?key=<script type="text/javascript">document.write(key);</script>&amp;mark=blue" target="_top"> <i>СКАЧАТЬ</i></a>
+													&nbsp;<a href="https://fileportall.blogspot.com/?mark=blue&key="><i>СКАЧАТЬ</i></a>
 													&nbsp;&nbsp;(Скачано: 311 раз)<br>
 												</div>
 												<div style="font-style: italic;">
