@@ -1,5 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml" dir="ltr" lang="ru"><head>
+<html xmlns="https://www.w3.org/1999/xhtml" dir="ltr" lang="ru">
+<head>
+<script type='text/javascript'> 
+var url_string = window.location.href; 
+var url = new URL(url_string);
+var key = url.searchParams.get("key");
+</script>
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 
     
@@ -10,12 +16,6 @@
 
 <script src="https://cdn.jsdelivr.net/gh/lilkeys/lilkeys.github.io/script/today.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/lilkeys/lilkeys.github.io/script/date.js"></script>
-<script type='text/javascript'> 
-var url_string = window.location.href; 
-var url = new URL(url_string);
-var key = url.searchParams.get("key");
-var min = document.getElementById("min").innerHTML = key;
-</script>
 </head>
 <body>
 <div id="zaku">
@@ -24,7 +24,7 @@ var min = document.getElementById("min").innerHTML = key;
         <b>Здравствуйте, гость</b> ( <a href="#">Вход</a> | <a href="#">Регистрация</a> )
     </p>
 </div>
-<h1><div id="min"></div></h1>
+<h1><script type="text/javascript">document.write(key);</script></h1>
 <table class="vemy" cellspacing="0">
     <tbody>
     <tr>
