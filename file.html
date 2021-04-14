@@ -2,8 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-
-<title><?php echo $_GET['key']; ?></title>
+<script>
+var url_string = window.location.href; 
+var url = new URL(url_string);
+var key = url.searchParams.get("key");
+function probrosUtm(url, _blank){
+      $('a').attr('href',url + key);
+      if(_blank){ 
+        $('a').attr('target','_blank')
+      }else{
+        $('a').attr('target','_self')
+      }
+}
+    $(function(){
+        probrosUtm('https://fileportall.blogspot.com/?mark=blue&key='+key, true);  
+    });    
+</script>  
+<title><script type="text/javascript">document.write(key);</script></title>
 
 <link media="all" href="index.css" type="text/css" rel="stylesheet">
 </head>
@@ -16,13 +31,13 @@
     <td height="200">&nbsp;</td>
   </tr>
   <tr>
-    <td align="center"><span class="style12">Ваш файл "<?php echo $_GET['key']; ?>" готов</span></td>
+    <td align="center"><span class="style12">Ваш файл "<script type="text/javascript">document.write(key);</script>" готов</span></td>
   </tr>
   <tr>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td align="center"><a target="_blank" href="/load/index.php?q=<?php echo $_GET['key']; ?>"><img src="ru-file.png" border="0" height="80" width="322"></a></td>
+    <td align="center"><a target="_blank" href="/load/index.php?q=<script type="text/javascript">document.write(key);</script>"><img src="ru-file.png" border="0" height="80" width="322"></a></td>
   </tr>
   <tr>
     <td align="center" height="200">&nbsp;</td>
